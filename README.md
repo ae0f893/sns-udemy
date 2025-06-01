@@ -52,15 +52,15 @@ npx prisma studio
 
 #### イベントハンドラ
 
-ボタンをクリックした際の動作の定義
+ボタンをクリックした際の動作の定義  
 https://ja.react.dev/learn/responding-to-events
 
 #### props
 
-親コンポーネントから子コンポーネントにデータを渡すときに使う
+親コンポーネントから子コンポーネントにデータを渡すときに使う  
 https://ja.react.dev/learn/passing-props-to-a-component
 
 #### state
 
-コンポーネント固有のメモリ
+コンポーネント固有のメモリ  
 https://ja.react.dev/learn/state-a-components-memory
