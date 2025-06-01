@@ -20,6 +20,7 @@ const Timeline = () => {
       setLatestPosts((prevPosts) => [newPost.data, ...prevPosts]);
       setPostText("");
     } catch (err) {
+      console.error(err);
       alert("ログインしてください。");
     }
   };

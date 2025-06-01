@@ -8,7 +8,7 @@ type Props = {
   posts: PostType[];
 };
 
-export const getServerSideProps: GetServerSideProps = async (context: any) => {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   const { userId } = context.query;
 
   try {
